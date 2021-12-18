@@ -1,0 +1,10 @@
+version: '3'
+services:
+  my-gpio:
+    privileged: true
+    restart: always
+    build: .
+    container_name: dbs_gpio
+    ports:
+      - 9095:9095
+    image: dmissud/my-gpio:latest

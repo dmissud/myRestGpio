@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: DBS_GPIO
+server:
+  port: 9095
+logging:
+  level:
+    org.dbs.pi4j: debug
+    org.springframework: error
